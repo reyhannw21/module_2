@@ -1,0 +1,34 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+
+
+
+
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #f0f0f0; /* Warna latar belakang laman web */
+    color: #333333; /* Warna teks */ 
+}
+h1 {
+    color: #5500ff; /* Warna tajuk (header)*/
+    font-size: 35px; /* Ukuran font tajuk (header) */
+    font-family: 'Times New Roman', Times, serif; /* Keluarga font yang digunakan di tajuk (header) */
+    background-color: goldenrod
+    color-change 3s infinite;
+
+
+}
+
